@@ -13,7 +13,6 @@ public class MP3Work {
 
     private final BasicPlayer player = new BasicPlayer();
 
-    private int currentVolumeValue;
     private String currentFileName;
 
     public void play(MP3 mp3, MP3Player mp3Player) {
