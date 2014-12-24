@@ -4,18 +4,13 @@ import Objects.MP3;
 import Objects.MP3Work;
 import Utils.FileUtils;
 import Utils.MP3PlayerFileFilter;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.io.File;
 import java.util.ArrayList;
-import javafx.scene.Parent;
-import javax.swing.DefaultListModel;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
-import javax.swing.ListModel;
-import javax.swing.filechooser.FileFilter;
 
 public class MP3Player extends javax.swing.JFrame {
 
